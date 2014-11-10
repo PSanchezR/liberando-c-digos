@@ -265,7 +265,7 @@ public class DesencriptadoPolialfabetico {
 
             try
             {
-                fichero = new FileWriter("/Users/pablosanchezrobles/Desktop/universidad/ESPECIALIDAD/seguridad y protección de sistemas informáticos/teoria/trabajos/carta a poe/salida.txt");
+                fichero = new FileWriter("./salida.txt");
                 pw = new PrintWriter(fichero);
                 pw.println(textoDesencriptado);
 
